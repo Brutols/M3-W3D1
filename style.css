@@ -64,3 +64,66 @@ svg {
 .row {
     --bs-gutter-x: unset;
 }
+
+.infoContainer {
+    max-width: 70%;
+    margin: auto;
+}
+
+.infoIcon {
+    aspect-ratio: 1/1;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(255,238,218);
+}
+
+.infoIcon ion-icon {
+    color: rgb(199,123,46);
+}
+
+.courseInfo p {
+    color: rgb(110, 110, 110);
+}
+
+.courseInfo ion-icon {
+    color: rgb(110, 110, 110);
+}
+
+#courseLevel {
+    color: #754FFE;
+}
+
+.courseRating ion-icon, .courseRating p {
+    color: rgb(255,170,70);
+}
+
+.courseRating p {
+    font-weight: bold;
+}
+
+.courseRating span {
+    color: rgb(110, 110, 110);
+    font-weight: lighter;
+}
+
+.coursePrice h5 {
+    font-weight: bold;
+}
+
+.coursePrice p {
+    text-decoration: line-through;
+    color: rgb(110, 110, 110);
+}
+
+.instructorInfo img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.courseInstructor ion-icon {
+    font-size: 24px;
+    color: rgb(110, 110, 110);
+}
