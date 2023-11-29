@@ -164,40 +164,559 @@
         </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <img src="./assets/course-angular.jpg" class="card-img-top" alt="...">
-      <div class="card-body d-flex flex-column gap-2">
-        <h5 class="card-title m-0">GraphQL: Introduction to GraphQL for beginners</h5>
-        <div class="courseInfo mb-2 d-flex align-items-center gap-1">
-          <ion-icon name="time-outline"></ion-icon>
-          <p class="m-0">2h 40m</p>
-          <ion-icon name="cellular" id="courseLevel"></ion-icon>
-          <p class="m-0">Advance</p>
-        </div>
-        <div class="courseRating d-flex align-items-center gap-1">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star-half"></ion-icon>
-          <ion-icon name="star-outline"></ion-icon>
-          <ion-icon name="star-outline"></ion-icon>
-          <p class="m-0">2.5<span>(1500)</span></p>
-        </div>
-        <div class="coursePrice d-flex align-items-center gap-1">
-          <h5 class="m-0">$500</h5>
-          <p class="m-0">$600</p>
-        </div>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <div class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center">
-            <div class="instructorInfo d-flex gap-2">
-              <img src="./assets/avatar-2.jpg" alt="avatar2">
-              Brooklyn Simmons
+
+    <div class="maincontainer d-flex flex-column">
+      <h3 class="carouselTitle mx-auto mt-5">Reccomended for you</h3>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center gap-4">
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-graphql.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-javascript.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    A Complete Beginner's Guide to JavaScript
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">4h 10m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">3.5<span>(7500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$700</h5>
+                    <p class="m-0">$850</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-3.jpg" alt="avatar2" />
+                        Jenny Wilson
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-node.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    Beginner Node.js, Express & MongoDB Development
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 00m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Intermediate</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">4.0<span>(15,700)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$800</h5>
+                    <p class="m-0">$950</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-4.jpg" alt="avatar2" />
+                        Sina Ray
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-laravel.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    Laravel: The Ultimate Beginner's Guide to Learn
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">1h 00m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Beginner</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <p class="m-0">4.5<span>(2500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$170</h5>
+                    <p class="m-0">$220</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-5.jpg" alt="avatar2" />
+                        Sobo Rikhan
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <ion-icon name="bookmark-outline"></ion-icon>
           </div>
-        </li>
-      </ul>
+          <div class="carousel-item">
+            <div class="row justify-content-center gap-4">
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center gap-4">
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card col-3" style="width: 16rem">
+                <img
+                  src="./assets/course-angular.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body d-flex flex-column gap-2">
+                  <h5 class="card-title m-0">
+                    GraphQL: Introduction to GraphQL for beginners
+                  </h5>
+                  <div class="courseInfo mb-2 d-flex align-items-center gap-1">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p class="m-0">2h 40m</p>
+                    <ion-icon name="cellular" id="courseLevel"></ion-icon>
+                    <p class="m-0">Advance</p>
+                  </div>
+                  <div class="courseRating d-flex align-items-center gap-1">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <p class="m-0">2.5<span>(1500)</span></p>
+                  </div>
+                  <div class="coursePrice d-flex align-items-center gap-1">
+                    <h5 class="m-0">$500</h5>
+                    <p class="m-0">$600</p>
+                  </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div
+                      class="courseInstructor px-1 py-2 d-flex justify-content-between align-items-center"
+                    >
+                      <div class="instructorInfo d-flex gap-2">
+                        <img src="./assets/avatar-2.jpg" alt="avatar2" />
+                        Brooklyn Simmons
+                      </div>
+                      <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
 
     <script
