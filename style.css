@@ -2,8 +2,16 @@ img {
     object-fit: cover;
 }
 
+body {
+    background-color: rgb(236, 236, 236);
+}
+
 svg {
     fill: yellow;
+}
+
+.navbar {
+    background-color: white;
 }
 
 .nav-link {
@@ -65,23 +73,31 @@ svg {
     --bs-gutter-x: unset;
 }
 
+.infoBackground {
+    background-color: white;
+}
+
 .infoContainer {
     max-width: 70%;
     margin: auto;
 }
 
-.infoIcon {
-    aspect-ratio: 1/1;
-    width: 15%;
-    display: flex;
-    justify-content: center;
+.infoContent {
     align-items: center;
-    border-radius: 50%;
+}
+
+.infoIcon {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding: 0.6lh;
+    border-radius: 100px;
     background-color: rgb(255,238,218);
 }
 
 .infoIcon ion-icon {
     color: rgb(199,123,46);
+    font-size: 20px;
 }
 
 .courseInfo p {
@@ -129,10 +145,36 @@ svg {
 }
 
 .carousel {
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 
 .carouselTitle {
     width: 70%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(110, 110, 110);
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+footer ion-icon {
+    color: rgb(110, 110, 110);
+}
+
+footer div {
+    color: rgb(110, 110, 110);
 }
