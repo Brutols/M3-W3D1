@@ -1,180 +1,214 @@
 img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 body {
-    background-color: rgb(236, 236, 236);
+  background-color: rgb(236, 236, 236);
 }
 
 svg {
-    fill: yellow;
+  fill: yellow;
 }
 
 .navbar {
-    background-color: white;
+  background-color: white;
 }
 
 .nav-link {
-    color: rgb(36, 36, 36);
+  color: rgb(36, 36, 36);
 }
 
 .navIcons img {
-    width: 15%;
-    border-radius: 50%;
+  width: 15%;
+  border-radius: 50%;
 }
 
 .ringBell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    border-radius: 50%;
-    background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  border-radius: 50%;
+  background-color: rgb(236, 236, 236);
 }
 
 .ringBell ion-icon {
-    font-size: 20px;
-    color: rgb(150, 150, 150);
+  font-size: 20px;
+  color: rgb(150, 150, 150);
 }
 
 .heroContainer {
-    background-color: #754FFE;
+  background-color: #754ffe;
 }
 
 .heroSection {
-    max-width: 70%;
+  max-width: 70%;
 }
 
 .heroContent h1 {
-    font-weight: bold;
-    color: white;
-    font-size: 36px;
+  font-weight: bold;
+  color: white;
+  font-size: 36px;
 }
 
 .heroContent p {
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.496);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.496);
 }
 
 .heroButtons button {
-    border: none;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    aspect-ratio: 1/0.3;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  aspect-ratio: 1/0.3;
 }
 
 .coloredButton {
-    background-color: #20c997;
-    color: white;
+  background-color: #20c997;
+  color: white;
 }
 
 .row {
-    --bs-gutter-x: unset;
+  --bs-gutter-x: unset;
 }
 
 .infoBackground {
-    background-color: white;
+  background-color: white;
 }
 
 .infoContainer {
-    max-width: 70%;
-    margin: auto;
+  max-width: 70%;
+  margin: auto;
 }
 
 .infoContent {
-    align-items: center;
+  align-items: center;
 }
 
 .infoIcon {
-    text-align: center;
-    height: 50px;
-    width: 50px;
-    padding: 0.6lh;
-    border-radius: 100px;
-    background-color: rgb(255,238,218);
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding: 0.6lh;
+  border-radius: 100px;
+  background-color: rgb(255, 238, 218);
 }
 
 .infoIcon ion-icon {
-    color: rgb(199,123,46);
-    font-size: 20px;
+  color: rgb(199, 123, 46);
+  font-size: 20px;
 }
 
 .courseInfo p {
-    color: rgb(110, 110, 110);
+  color: rgb(110, 110, 110);
 }
 
 .courseInfo ion-icon {
-    color: rgb(110, 110, 110);
+  color: rgb(110, 110, 110);
 }
 
 #courseLevel {
-    color: #754FFE;
+  color: #754ffe;
 }
 
-.courseRating ion-icon, .courseRating p {
-    color: rgb(255,170,70);
+.courseRating ion-icon,
+.courseRating p {
+  color: rgb(255, 170, 70);
 }
 
 .courseRating p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .courseRating span {
-    color: rgb(110, 110, 110);
-    font-weight: lighter;
+  color: rgb(110, 110, 110);
+  font-weight: lighter;
 }
 
 .coursePrice h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .coursePrice p {
-    text-decoration: line-through;
-    color: rgb(110, 110, 110);
+  text-decoration: line-through;
+  color: rgb(110, 110, 110);
+}
+
+.instructorInfo {
+  align-items: center;
 }
 
 .instructorInfo img {
-    width: 10%;
-    border-radius: 50%;
+  width: 20px;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .courseInstructor ion-icon {
-    font-size: 24px;
-    color: rgb(110, 110, 110);
+  font-size: 24px;
+  color: rgb(110, 110, 110);
+  min-width: 20px;
+  max-width: 20px;
+  fill: none;
+  stroke-width: 32px;
+}
+
+.courseInstructor ion-icon:hover {
+    fill: currentColor;
 }
 
 .carousel {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+  margin: auto;
 }
 
 .carouselTitle {
-    width: 70%;
+  width: 70%;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: rgb(110, 110, 110);
-    border-radius: 50%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(110, 110, 110);
+  border-radius: 50%;
 }
 
 .carousel-inner {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 footer {
-    width: 75%;
-    margin: auto;
-    padding: 15px;
-    margin-top: 50px;
-    border-top: 1px solid rgb(201, 201, 201);
+  width: 75%;
+  margin: auto;
+  padding: 15px;
+  margin-top: 50px;
+  border-top: 1px solid rgb(201, 201, 201);
 }
 
 footer ion-icon {
-    color: rgb(110, 110, 110);
+  color: rgb(110, 110, 110);
 }
 
 footer div {
-    color: rgb(110, 110, 110);
+  color: rgb(110, 110, 110);
+}
+
+.courseInstructor ion-icon:hover {
+  cursor: pointer;
+}
+
+.carousel-inner .card {
+    transition: 0.3s;
+}
+
+.carousel-item .card:hover {
+    cursor: pointer;
+  transform: scale(1.08);
+  -webkit-box-shadow: 7px 7px 20px 1px rgba(0,0,0,0.5); 
+  box-shadow: 7px 7px 20px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-inner {
+    overflow: visible;
 }
