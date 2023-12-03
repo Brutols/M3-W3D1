@@ -18,8 +18,12 @@ svg {
   color: rgb(36, 36, 36);
 }
 
+.navIcons {
+  width: 100px;
+}
+
 .navIcons img {
-  width: 15%;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -27,7 +31,7 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 50%;
   border-radius: 50%;
   background-color: rgb(236, 236, 236);
 }
@@ -35,6 +39,56 @@ svg {
 .ringBell ion-icon {
   font-size: 20px;
   color: rgb(150, 150, 150);
+}
+
+.blueDot {
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 3px;
+  right: 0;
+}
+
+.greenDot {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: 3px;
+  right: 0;
+}
+
+.dropdownImg {
+  width: 50%;
+}
+
+.dropdownImg:hover {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  top: 50px!important;
+  left: unset!important;
+  right: 0;
+  width: 220px;
+}
+
+.dropdownUser h5, .dropdownUser p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.userWrapper, .userOptions {
+  border-bottom: 2px solid rgb(110, 110, 110);
+}
+
+.dropdown-menu li {
+  list-style-type: none;
 }
 
 .heroContainer {
@@ -211,4 +265,12 @@ footer div {
 
 .carousel-inner {
     overflow: visible;
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown-menu {
+    top: 60px!important;
+    left: -60px!important;
+    width: 220px;
+  }
 }

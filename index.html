@@ -106,13 +106,51 @@
               </ul>
             </li>
           </ul>
-        </div>
-        <div class="d-flex navIcons gap-1 justify-content-end">
-          <div class="ringBell">
-            <ion-icon name="notifications-outline"></ion-icon>
+          <div class="d-flex navIcons gap-1 justify-content-end">
+            <div class="ringBell position-relative">
+              <ion-icon name="notifications-outline"></ion-icon>
+              <div class="blueDot position-absolute"></div>
+            </div>
+  
+            <div class="dropdown dropdownImg">
+              <div
+                class="position-relative dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./assets/avatar-1.jpg" alt="profile" />
+                <div class="greenDot position-absolute"></div>
+              </div>
+              <div class="dropdown-menu">
+                <div class="d-flex flex-column gap-2 px-2">
+                  <div class="d-flex justify-content-evenly align-items-center gap-2 userWrapper">
+                    <div class="position-relative">
+                      <img src="./assets/avatar-1.jpg" alt="profile" />
+                      <div class="greenDot position-absolute"></div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center dropdownUser">
+                      <h5>Annette Black</h5>
+                      <p>annette@geeksui.com</p>
+                    </div>
+                  </div>
+                  <div class="userOptions">
+                    <ul>
+                      <li>Profile</li>
+                      <li>Subscription</li>
+                      <li>Settings</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>Sign Out</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <img src="./assets/avatar-1.jpg" alt="profile" />
         </div>
+
       </div>
     </nav>
     <div class="heroContainer d-flex justify-content-center">
@@ -132,46 +170,50 @@
             <button type="button" class="col-4">Are You Instructor?</button>
           </div>
         </div>
-        <img src="./assets/hero-img.png" alt="hero-img" class="col-12 col-md-6" />
+        <img
+          src="./assets/hero-img.png"
+          alt="hero-img"
+          class="col-12 col-md-6"
+        />
       </div>
     </div>
     <div class="infoBackground">
-    <div class="infoContainer row py-3">
-      <div class="infoContent d-flex col-12 col-md-4 gap-3">
-        <div class="infoIcon">
-          <ion-icon name="videocam-outline"></ion-icon>
+      <div class="infoContainer row py-3">
+        <div class="infoContent d-flex col-12 col-md-4 gap-3">
+          <div class="infoIcon">
+            <ion-icon name="videocam-outline"></ion-icon>
+          </div>
+          <div class="infoText d-flex flex-column justify-content-center">
+            <h5 class="m-0">30,000 online courses</h5>
+            <p class="m-0">Enjoy a variety of fresh topics</p>
+          </div>
         </div>
-        <div class="infoText d-flex flex-column justify-content-center">
-          <h5 class="m-0">30,000 online courses</h5>
-          <p class="m-0">Enjoy a variety of fresh topics</p>
+        <div class="infoContent d-flex col-12 col-md-4 gap-3">
+          <div class="infoIcon">
+            <ion-icon name="people-outline"></ion-icon>
+          </div>
+          <div class="infoText d-flex flex-column justify-content-center">
+            <h5 class="m-0">Expert instruction</h5>
+            <p class="m-0">Find the right instructor for you</p>
+          </div>
         </div>
-      </div>
-      <div class="infoContent d-flex col-12 col-md-4 gap-3">
-        <div class="infoIcon">
-          <ion-icon name="people-outline"></ion-icon>
-        </div>
-        <div class="infoText d-flex flex-column justify-content-center">
-          <h5 class="m-0">Expert instruction</h5>
-          <p class="m-0">Find the right instructor for you</p>
-        </div>
-      </div>
-      <div class="infoContent d-flex col-12 col-md-4 gap-3">
-        <div class="infoIcon">
-          <ion-icon name="time-outline"></ion-icon>
-        </div>
-        <div class="infoText d-flex flex-column justify-content-center">
-          <h5 class="m-0">Lifetime access</h5>
-          <p class="m-0">Learn on your schedule</p>
+        <div class="infoContent d-flex col-12 col-md-4 gap-3">
+          <div class="infoIcon">
+            <ion-icon name="time-outline"></ion-icon>
+          </div>
+          <div class="infoText d-flex flex-column justify-content-center">
+            <h5 class="m-0">Lifetime access</h5>
+            <p class="m-0">Learn on your schedule</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
     <div class="maincontainer d-flex flex-column justify-content-evenly">
       <h3 class="carouselTitle mb-3 mx-auto mt-5">Reccomended for you</h3>
       <div id="carousel1" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item  active">
+          <div class="carousel-item active">
             <div class="row justify-content-center gap-4">
               <div class="card col-6 col-md-4 col-lg-3" style="width: 16rem">
                 <img
@@ -216,7 +258,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -259,7 +304,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -302,7 +350,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-laravel.jpg"
                   class="card-img-top"
@@ -347,9 +398,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -392,7 +446,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -435,7 +492,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -523,9 +583,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -568,7 +631,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -611,7 +677,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -723,7 +792,7 @@
       <h3 class="carouselTitle mb-3 mx-auto mt-5">Most Popular</h3>
       <div id="carousel2" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item  active">
+          <div class="carousel-item active">
             <div class="row justify-content-center gap-4">
               <div class="card col-6 col-md-4 col-lg-3" style="width: 16rem">
                 <img
@@ -768,7 +837,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -811,7 +883,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -854,7 +929,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-laravel.jpg"
                   class="card-img-top"
@@ -899,9 +977,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -944,7 +1025,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -987,7 +1071,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -1075,9 +1162,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -1120,7 +1210,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -1163,7 +1256,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -1275,7 +1371,7 @@
       <h3 class="carouselTitle mb-3 mx-auto mt-5">Trending</h3>
       <div id="carousel3" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item  active">
+          <div class="carousel-item active">
             <div class="row justify-content-center gap-4">
               <div class="card col-6 col-md-4 col-lg-3" style="width: 16rem">
                 <img
@@ -1320,7 +1416,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -1363,7 +1462,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -1406,7 +1508,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-laravel.jpg"
                   class="card-img-top"
@@ -1451,9 +1556,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -1496,7 +1604,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -1539,7 +1650,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -1627,9 +1741,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item">
             <div class="row justify-content-center gap-4">
-              <div class="card col-6 col-md-4 col-lg-3 d-none d-sm-block" style="width: 16rem">
+              <div
+                class="card col-6 col-md-4 col-lg-3 d-none d-sm-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-graphql.jpg"
                   class="card-img-top"
@@ -1672,7 +1789,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-lg-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-lg-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-javascript.jpg"
                   class="card-img-top"
@@ -1715,7 +1835,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="card col-4 col-lg-3 d-none d-xl-block" style="width: 16rem">
+              <div
+                class="card col-4 col-lg-3 d-none d-xl-block"
+                style="width: 16rem"
+              >
                 <img
                   src="./assets/course-node.jpg"
                   class="card-img-top"
@@ -1824,7 +1947,9 @@
         </button>
       </div>
     </div>
-    <footer class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <footer
+      class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+    >
       <div class="footerContentL">
         <ion-icon name="shield-checkmark-outline"></ion-icon>
         2022 Geeks, All Rights Reserved
@@ -1836,7 +1961,6 @@
         <div>Support</div>
       </div>
     </footer>
-
 
     <script
       type="module"
